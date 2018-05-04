@@ -20,7 +20,7 @@ public class actividad extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_actividad);
-        String categorias[] = {"Electronica", "Hogar", "Papeleria", "Moda"};
+        String categorias[] = {"Electronica", "Hogar", "Papeleria", "Moda", "Dulceria", "Jardineria"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.support_simple_spinner_dropdown_item, categorias);
 
         spinner = (Spinner) findViewById(R.id.spnProducto);
